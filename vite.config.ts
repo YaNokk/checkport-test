@@ -2,7 +2,6 @@ import { defineConfig, loadEnv } from "vite";
 import react from "@vitejs/plugin-react";
 import svgr from "vite-plugin-svgr";
 
-// https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), "");
   return {
@@ -21,7 +20,7 @@ export default defineConfig(({ mode }) => {
     ],
     server: {
       host: true,
-      port: 8000, // This is the port which we will use in docker
+      port: 8000,
       watch: {
         usePolling: true,
       },
