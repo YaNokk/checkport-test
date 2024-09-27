@@ -1,0 +1,18 @@
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3)
+}
+
+.spinner {
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}

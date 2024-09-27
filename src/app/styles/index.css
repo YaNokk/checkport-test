@@ -1,0 +1,22 @@
+@import "@radix-ui/themes/styles.css";
+@import 'react-toastify/dist/ReactToastify.css';
+@import 'modern-normalize/modern-normalize.css';
+
+:root {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    --primaryColor: #072659;
+    --secondaryColor: rgba(101, 122, 157, 1);
+    color: var(--primaryColor);
+}
+
+.radix-themes {
+    --indigo-9: var(--primaryColor);
+    --indigo-a9: var(--primaryColor);
+}
+
+html, body, #root, .radix-themes {
+    height: 100%;
+    position: relative;
+}
